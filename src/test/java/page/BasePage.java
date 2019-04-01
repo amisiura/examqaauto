@@ -14,7 +14,6 @@ public abstract class BasePage {
 
     /** abstract method that shows isPageLoaded method is mandatory for each page
      * @return no return
-     * @throws InterruptedException is exception
      */
     public abstract boolean isPageLoaded();
 

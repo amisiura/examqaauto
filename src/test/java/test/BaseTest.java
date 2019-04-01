@@ -25,12 +25,10 @@ public class BaseTest {
     }
 
     /**afterTest does actions that are needed to be done after each test
-     * @throws InterruptedException is exception
      */
-/*    @AfterMethod  // задаем посткондишены
-    public void afterMethod() throws InterruptedException  {
-        Thread.sleep(1000);
+    @AfterMethod  // задаем посткондишены
+    public void afterMethod()  {
         driver.quit();
-    }*/
+    }
 
 }
